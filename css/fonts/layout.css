@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "sed";
+  src: url(../fonts/sedgwickavedisplay-regular-webfont.woff2);
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+}
+
+.left-grid {
+  position: relative;
+
+  margin-left: 0%;
+}
+
+.right-grid {
+  position: relative;
+  margin-left: 30%;
+}
+p {
+  margin-bottom: 15px;
+  font-size: small;
+}
+
+.flex_col nav:last-child {
+  margin-bottom: auto;
+}
+
+video {
+  max-width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  color: brown;
+  display: flex;
+  justify-content: space-around;
+  font-family: "sed";
+  font-size: x-large;
+  margin: 1% 0% 1% 0%;
+  padding: 2%;
+  border-radius: 1em;
+  position: relative;
+}
+
+@media (min-width: 600px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+}
+
+.boks {
+  background-color: rgb(200, 223, 233);
+  padding: 4% 4% 4% 4%;
+}
