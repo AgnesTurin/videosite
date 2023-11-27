@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1em;
+  /* margin: %; */
 }
 
 .left-grid {
@@ -27,9 +28,16 @@ p {
 .flex_col nav:last-child {
   margin-bottom: auto;
 }
-
+img {
+  max-width: 100%;
+}
 video {
   max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
 }
 
 nav ul {
